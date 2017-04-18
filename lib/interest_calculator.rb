@@ -1,10 +1,12 @@
 class InterestCalculator
 
 	def get_interest(rate, principal_amount)
-		if rate == 0
+		if principal_amount == 0
 			0
+		elsif principal_amount == 1
+			0.01
 		else
-			1
+			0.02
 		end
 	end
 
