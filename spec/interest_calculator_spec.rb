@@ -32,4 +32,9 @@ describe InterestCalculator do
 		expect(interest_calculator.total_interest(1, 2)).to eq(2)
 	end
 
+	it "returns 1758 if interest is 64.5 and amount is 1500" do
+		interest_calculator = InterestCalculator.new
+		expect(interest_calculator.get_final_total(4.3, 1500)).to eq(1758)
+	end
+
 end
