@@ -17,4 +17,9 @@ describe InterestCalculator do
 		expect(interest_calculator.get_interest(1, 2)).to eq(0.02)
 	end
 
+	it "returns 0.43 if rate * principle is 2" do
+		interest_calculator = InterestCalculator.new
+		expect(interest_calculator.get_interest(4.3, 1500)).to eq(64.5)
+	end
+
 end
