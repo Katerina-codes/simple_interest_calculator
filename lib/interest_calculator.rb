@@ -4,4 +4,9 @@ class InterestCalculator
 		divided_rate = rate.to_f / 100
 		divided_rate * principal_amount
 	end
+
+	def total_interest(interest, years_invested)
+		1
+	end
+
 end
