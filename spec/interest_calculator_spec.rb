@@ -22,7 +22,7 @@ describe InterestCalculator do
 		expect(interest_calculator.get_interest(4.3, 1500)).to eq(64.5)
 	end
 
-	it "returns total interest if years for investment is 0" do
+	it "returns total interest if years for investment is 1" do
 		interest_calculator = InterestCalculator.new
 		expect(interest_calculator.total_interest(1, 1)).to eq(1)
 	end
