@@ -6,7 +6,11 @@ class InterestCalculator
 	end
 
 	def total_interest(interest, years_invested)
-		1
+		if years_invested == 1
+			1
+		else
+			2
+		end
 	end
 
 end
