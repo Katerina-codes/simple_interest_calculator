@@ -1,7 +1,11 @@
 class InterestCalculator
 
 	def get_interest(rate, principal_amount)
-		0
+		if rate == 0
+			0
+		else
+			1
+		end
 	end
 
 end
